@@ -5,7 +5,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* background-color: black; */
+  
+}
+body{
+  background:linear-gradient(to bottom, #000000, #434343, #222121);
 }
 /* default style */
 .display-flex{
@@ -54,37 +57,48 @@
   color: white;
   display: none;
 }
-/* banner style */
+/* banner style start here */
 .banner{
-  height: 55vh;
-  width: 100%;
-  border: 2px solid red;
+  max-width: 100%;
+  height:100%;
+  /* border: 2px solid red; */
+  background:linear-gradient(to bottom, #000000, #434343, #222121);
+  
 }
 .banner-container{
+  height: 43vh;
+  width: 83%;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
-  justify-content:space-around;
+  justify-content:space-evenly;
   align-items: center;
+  /* border: 1px solid red; */
 
 }
 .banner-content{
-  margin-right: 36rem;
-  margin-top: 2em;
+  /* margin-right: 36rem;
+  margin-top: 2em; */
+  width: 54%;
+  height: 43vh;
+  /* border:1px solid greenyellow; */
+
 }
 .banner-content h1{
-  /* color:#fff; */
+  color:#fff;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 4.1rem;
   
 }
 .banner-content p{
-  font-size: 1rem;
-  /* color: rgba(255,255,255,0.5) */
-  margin-top: 1.5em;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 1.3em;
 
 }
 .join-btn{
-  margin-top: 1.5rem;
-  padding: 12px 55px;
+  margin-top: 20px;
+  padding: 12px 45px;
   border-radius: 30px ;
   background: rgb(230, 83, 60); 
   color: #fff;
@@ -93,20 +107,154 @@
   border: none;
 }
 .dwn-btn{
-  margin-top: 1.5rem;
-  padding: 10px 55px;
+  margin-top: 20px;
+  padding: 10px 45px;
   border-radius: 30px ;
-  margin-left: 2rem;
-  /* color: #fff; */
-  /* border:1px solid rgb(255, 255, 255); */
-  background: none;
+  margin-left:15px;
+  color:#fff;
+  background:none;
+  border:1px solid rgb(255, 255, 255);
   font-size: 10px;
   font-weight: bolder;
+  
 }
-.banner-img{
-  height: 300px;
-  width: 100%;
+.banner-right-content{
+  height:43vh;
+  width: 45%;
+  position: relative;
+ 
 }
+.banner-right-content img{
+  height: 43vh;
+  max-width: 258px;
+  position: relative;
+  left: 50%;
+}
+.card-1 {
+   width: 130px;
+  height: 70px; 
+  background-color: #434343e5;
+  position: relative;
+  bottom: 19.8em;
+  left: 31.5em;
+  border-radius: 8px;
+  
+}
+.card-1 h3{
+  color:#fff;
+  font-size: 2.2rem;
+  font-weight: bolder;
+ padding-left: 12px;
+ margin-top: 10px;
+}
+.card-1 h3{
+  /* padding-left: 10px; */
+  padding-top:15px 5px;
+  margin-top: 5px;
+}
+.card-1 p{
+ color: rgba(255,255,255,0.5);
+ font-size: 0.7rem;
+}
+.card-2{
+   width: 156px;
+   height: 75px;
+  /* border: 1px solid yellow; */
+  border-radius: 8px;
+  background-color: #434343db;
+  position: relative;
+  bottom: 12em;
+  left: 16.7em;
+}
+.card-2 h3{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  padding-left: 3.5rem;
+  padding-top: 10px;
+}
+.card-2 p{
+  font-size: 0.8rem;
+  color:rgba(255,255,255,0.5); 
+  padding-left: 3.6rem;
+  padding-bottom: 10px;
+}
+.rounded-ellips{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top:23px;
+  left: 15px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+}
+.rounded-ellips i{
+  display: none;
+  color: coral;
+}
+/* your habbits style start here  */
+.habbits-container{
+  max-width: 85%;
+  height: 59vh;
+  border:1px solid red;
+  margin: auto;
+
+  
+}
+.habbits-header{
+  height: 8vh;
+  width: 120vh;
+  border: 1px solid red;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+.habbits-header p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+.habbits-card-container{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.habbits-card-1{
+  width: 22vh;
+  height:27vh;
+  margin-top: 30px;
+  border: 1px solid red;
+  text-align: center;
+}
+.habbits-card-1 img {
+  border-radius: 50%;
+}
+.box h3{
+  color:#fff
+}
+.box p{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* your habbits style ends here */
+
+
+
+
+
+  
+
+
 
 
 
@@ -126,6 +274,65 @@
   .head-name{
     margin: 0 auto;
     padding-left: 2rem;
-  
   }
-}
+  .banner{
+    height: 95vh;
+  }
+ .banner-container{
+  height: 85vh;
+  flex-direction: column;
+
+ }
+ .banner-content{
+  width: 350px;
+  height: 368px;
+ }
+ .banner-content h1 {
+  font-size: 2.6rem;
+ }
+ .banner-content p{
+  width: 35vh;
+  font-size: 1.2rem;
+ }
+ .join-btn{
+  width: 164px;
+  height: 40px;
+ }
+ .dwn-btn{
+  width: 164px;
+  height: 40px;
+  margin-left: 10px;
+  padding-top: 5px;
+ 
+ }
+ .banner-right-content{
+  width: 40vh;
+  height: 41vh;
+ }
+ .banner-right-content img{
+  height: 40vh;
+  width: 43vh;
+  left: 18px;
+
+ }
+ .card-1{
+  position:relative;
+  left: 10.3em;
+  top: -22em;
+ 
+ }
+ .card-2{
+  position: relative;
+  bottom:19em;
+  left: 1em;
+ }
+ .rounded-ellips{
+  display:none;
+  
+ }
+ .rounded-ellips i{
+  display: block;
+  color: chocolate;
+ }
+ 
+ }
