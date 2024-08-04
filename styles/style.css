@@ -319,38 +319,49 @@
   width: 43vh;
   left: 18px;
 
- }
- .card-1{
+}
+.card-1{
   position:relative;
   left: 10.3em;
   top: -22em;
- 
- }
- .card-2{
+}
+.card-2{
   position: relative;
   bottom:19em;
   left: 1em;
- }
- .rounded-ellips{
+}
+.rounded-ellips{
   display:none;
   
- }
- .rounded-ellips i{
+}
+.rounded-ellips i{
   display: block;
   color: chocolate;
  }
- .habbits-header{
+.habbits-container{
+  height: 147vh;
+ }
+.habbits-header{
   height: 150px;
   width: 600px;
   align-items: center;
- }
- .habbits-header h1{
+}
+.habbits-header h1{
   font-size: 20px;
   margin-right: 14.5rem;
- }
- .habbits-header p{
+}
+.habbits-header p{
   width:40vh;
-  font-size: 14px;
- }
- 
- }
+  font-size: 13px;
+}
+.habbits-card-container{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habbits-card-1{
+  margin-top: 20px;
+}
+}
