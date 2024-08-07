@@ -7,9 +7,6 @@
   padding: 0;
   
 }
-/* body{
-  background:linear-gradient(to bottom, #000000, #434343, #222121);
-} */
 /* default style */
 .display-flex{
   display: flex;
@@ -22,7 +19,7 @@
 .nav-item, a{
   text-decoration: none;
   color: white;
- 
+
 }
 
 /* navbar */
@@ -30,8 +27,8 @@
   width: 90%;
   height: 12vh;
   display: flex;
- justify-content: space-between;
- align-items: center;
+justify-content: space-between;
+align-items: center;
 }
 .nav-options span{
   background-color:rgb(230, 83, 60);
@@ -196,7 +193,7 @@
 /* your habbits style start here  */
 .habbits-container{
   max-width: 100%;
-  height: 46vh;
+  height: 48vh;
   background-color: #000000;
 
   
@@ -241,17 +238,70 @@
   font-size: 12px;
   margin-top: 10px;
 }
-
-
-
-
-
-
-
-
-
-
 /* your habbits style ends here */
+/* run extra section satyle strt here */
+.run-extra-container{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+
+}
+.run-extra-content{
+  width: 75%;
+  height: 80%;
+  background: rgb(34, 34, 34);
+  margin:auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.run-extra-left{
+  height: 100%;
+  width:70%;
+  padding-left: 50px;
+  padding-top: 3.8em;
+}
+.run-extra-left h3{
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.run-extra-left p{
+  width: 385px;
+  font-size: 15px;
+  line-height: 20px;
+  color:rgba(255, 255, 255, 0.5);
+  margin-top: 1em;
+}
+.run-extra-left button {
+  padding: 12px 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(230, 83, 60);
+  color: #fff;
+  margin-top: 3em;
+  font-size: 12px;
+  font-weight: bolder;
+
+}
+.run-extra-right{
+  height:100%;
+  width: 40%;
+  margin-left: 40px;
+}
+.run-extra-right{
+  background-image: url(/images/run.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+  width: 330px;
+  padding: 10px 40px;
+  align-items: center;
+  border-radius: 15px;
+}
+/* run extra section satyle ends here */
 
 
 
@@ -330,14 +380,6 @@
   bottom:19em;
   left: 1em;
 }
-.rounded-ellips{
-  display:none;
-  
-}
-.rounded-ellips i{
-  display: block;
-  color: chocolate;
- }
 .habbits-container{
   height: 147vh;
  }
