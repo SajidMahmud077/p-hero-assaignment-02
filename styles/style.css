@@ -5,7 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 /* default style */
 .display-flex{
@@ -64,21 +63,15 @@ align-items: center;
 }
 .banner-container{
   height: 42vh;
-  width: 83%;
-  margin: 0 auto;
-  box-sizing: border-box;
+  width: 84%;
+  margin: auto;
   display: flex;
   justify-content:space-evenly;
-  align-items: center;
-  /* border: 1px solid red; */
-
+ 
 }
 .banner-content{
-  /* margin-right: 36rem;
-  margin-top: 2em; */
   width: 54%;
   height: 43vh;
-  /* border:1px solid greenyellow; */
 
 }
 .banner-content h1{
@@ -116,19 +109,19 @@ align-items: center;
   
 }
 .banner-right-content{
-  height:43vh;
+  height:42vh;
   width: 45%;
   position: relative;
- 
+
 }
 .banner-right-content img{
-  height: 42.5vh;
-  max-width: 258px;
+  height: 42vh;
+  width: 258px;
   position: relative;
   left: 50%;
 }
 .card-1 {
-   width: 135px;
+  max-width: 135px;
   height: 70px; 
   background-color: #434343e5;
   position: relative;
@@ -141,8 +134,8 @@ align-items: center;
   color:#fff;
   font-size: 2.2rem;
   font-weight: bolder;
- padding-left: 12px;
- margin-top: 10px;
+  padding-left: 12px;
+  margin-top: 10px;
 }
 .card-1 h3{
   /* padding-left: 10px; */
@@ -157,7 +150,6 @@ align-items: center;
 .card-2{
    width: 156px;
    height: 75px;
-  /* border: 1px solid yellow; */
   border-radius: 8px;
   background-color: #434343db;
   position: relative;
@@ -186,15 +178,15 @@ align-items: center;
   border-radius: 50%;
   background-color: rgb(230, 83, 60);
 }
-.rounded-ellips i{
-  display: none;
-  color: coral;
-}
 /* your habbits style start here  */
-.habbits-container{
-  max-width: 100%;
-  height: 48vh;
+.main-container{
   background-color: #000000;
+  height: 260vh;
+}
+.habbits-container{
+  width: 100%;
+  /* background-color: #000000; */
+
 
   
 }
@@ -204,12 +196,12 @@ align-items: center;
   text-align: center;
   color: #fff;
   margin: auto;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 .habbits-header p{
   color: rgba(255, 255, 255, 0.5);
   font-size: 13px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .habbits-card-container{
   width: 85%;
@@ -231,41 +223,40 @@ align-items: center;
 }
 .box h3{
   color:#fff;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .box p{
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 /* your habbits style ends here */
 /* run extra section satyle strt here */
 .run-extra-container{
   width: 100%;
-  height: 100%;
-  background-color: #000000;
-
+  height: 510px;
 }
 .run-extra-content{
-  width: 75%;
-  height: 80%;
+  width: 80%;
+ height: 340px;
+ margin: auto;
   background: rgb(34, 34, 34);
-  margin:auto;
-  margin-top: 60px;
+  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  margin-top: 20px;
 }
 .run-extra-left{
-  height: 100%;
-  width:70%;
-  padding-left: 50px;
-  padding-top: 3.8em;
+  width:50%;
+
+ 
 }
 .run-extra-left h3{
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 700;
+  margin-top: 10px;
   color: #fff;
 }
 .run-extra-left p{
@@ -276,32 +267,65 @@ align-items: center;
   margin-top: 1em;
 }
 .run-extra-left button {
-  padding: 12px 50px;
+  padding: 12px 60px;
   border-radius: 20px;
   border: none;
   background-color: rgb(230, 83, 60);
   color: #fff;
-  margin-top: 3em;
+  margin-top: 1.5rem;
   font-size: 12px;
   font-weight: bolder;
 
 }
 .run-extra-right{
-  height:100%;
-  width: 40%;
-  margin-left: 40px;
+  height: 290px;
+  width: 45%;
+
 }
-.run-extra-right{
-  background-image: url(/images/run.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 310px;
-  width: 330px;
-  padding: 10px 40px;
-  align-items: center;
-  border-radius: 15px;
+.run-extra-right img{
+  width: 295px;
+  height: 285px;
+  border-radius: 10px;
+  position: absolute;
+  right: 13em;
+  margin-top: 5px;
+  
 }
 /* run extra section satyle ends here */
+/* bmi header style start here */
+.bmi-header{
+  width :40%;
+  height: 150px;
+  color: #fff;
+  margin: auto;
+}
+.bmi-content{
+  margin-top: 40px;
+
+}
+.bmi-content h3{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.bmi-content p{
+  width: 650px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 10px;
+
+}
+/* bmi header style ends here */
+/* bmi chart start here */
+.bmi-chart-container{
+    width: 98%;
+    height: 480px;
+    border: 1px solid red;
+    background-color: rgb(34, 34, 34);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 
 
@@ -358,6 +382,7 @@ align-items: center;
   height: 40px;
   margin-left: 10px;
   padding-top: 5px;
+  text-align: center;
  
  }
  .banner-right-content{
@@ -365,14 +390,14 @@ align-items: center;
   height: 41vh;
  }
  .banner-right-content img{
-  height: 40vh;
-  width: 43vh;
-  left: 18px;
+  height: 39.5vh;
+  width: 40vh;
+  left: 14px;
 
 }
 .card-1{
   position:relative;
-  left: 10.3em;
+  left: 13em;
   top: -22em;
 }
 .card-2{
@@ -381,7 +406,7 @@ align-items: center;
   left: 1em;
 }
 .habbits-container{
-  height: 147vh;
+  height: 142vh;
  }
 .habbits-header{
   height: 150px;
@@ -393,8 +418,9 @@ align-items: center;
   margin-right: 14.5rem;
 }
 .habbits-header p{
-  width:40vh;
+  width:41vh;
   font-size: 13px;
+  margin-left: 16px;
 }
 .habbits-card-container{
     height: 120vh;
@@ -406,4 +432,62 @@ align-items: center;
 .habbits-card-1{
   margin-top: 20px;
 }
+.run-extra-container{
+  height: 510px;
+  width:100%;
+}
+.run-extra-content{
+  width:350px ;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+
+}
+.run-extra-left{
+  width: 400px;
+  height: 340px;
+  margin-left: 6em;
+}
+.run-extra-left h3{
+  margin-top: 15px;
+  font-size: 2.5rem;
+}
+.run-extra-left p{
+  font-size: 12px;
+  width: 325px;
+}
+.run-extra-left button{
+  padding: 12px 122px;
+}
+.run-extra-right{
+  width: 295px;
+  height: 185px;
+  margin-bottom: 10px;
+
+}
+.run-extra-right img{
+  height:160px;
+  width: 290px;
+  position: relative;
+  left: 1px;
+  bottom: 10px;
+}
+.bmi-header{
+  width: 90%;
+}
+.bmi-content{
+
+  margin-left: 20px;
+}
+.bmi-content h3{
+  width: 180px;
+  font-size: 1.5rem;
+}
+.bmi-content p{
+  width: 290px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
 }
