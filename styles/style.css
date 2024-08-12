@@ -317,14 +317,88 @@ align-items: center;
 /* bmi header style ends here */
 /* bmi chart start here */
 .bmi-chart-container{
-    width: 98%;
-    height: 480px;
-    border: 1px solid red;
+    width: 99%;
+    height: 420px;
     background-color: rgb(34, 34, 34);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+    margin-top:50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+.bmi-chart-left{
+  width:30%;
+  padding: 50px ;
+
+  
+}
+.bmi-chart-left h3{
+  font-size: 25px;
+  color: #fff;
+}
+table{
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+ th, td{
+  width: 160px;
+  height: 45px;
+  border:1px solid rgb(91, 86, 86) ;
+  padding-left: 15px;
+}
+tbody{
+  color: rgba(255, 255, 255, 0.5);
+}
+.table-head{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+.bmi-chart-right{
+  width: 45%;
+  padding: 50px;
+}
+.bmi-chart-right h3{
+  font-size: 25px;
+  color:#fff;
+}
+.bmi-chart-right p{
+  width: 410px;
+  margin-top: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.bmi-chart-form{
+  width: 480px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  margin-top: 45px;
+  border-radius: 20px;
+ 
+}
+input, select{
+  border-radius: 8px;
+  border: none ;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #d2cfcf84;
+}
+#activity-factor{
+  height: 35px ;
+  grid-column: span 2;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.bmi-chart-btn{
+  padding: 10px 55px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(230, 83, 60);
+  color: #fff;
+  margin-top: 20px;
+}
+/* bmi chart ends here */
 
 
 
