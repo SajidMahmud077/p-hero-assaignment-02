@@ -294,12 +294,14 @@ align-items: center;
 /* run extra section satyle ends here */
 /* bmi header style start here */
 .bmi-header{
-  width :40%;
+  width :70%;
   height: 150px;
   color: #fff;
   margin: auto;
+  margin-right: 50px;
 }
 .bmi-content{
+  /* width:700px; */
   margin-top: 40px;
 
 }
@@ -308,7 +310,7 @@ align-items: center;
   font-weight: bold;
 }
 .bmi-content p{
-  width: 650px;
+  width: 645px;
   font-size: 15px;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 10px;
@@ -317,7 +319,7 @@ align-items: center;
 /* bmi header style ends here */
 /* bmi chart start here */
 .bmi-chart-container{
-    width: 99%;
+    width: 100%;
     height: 420px;
     background-color: rgb(34, 34, 34);
     margin-top:50px ;
@@ -397,6 +399,171 @@ input, select{
   margin-top: 20px;
 }
 /* bmi chart ends here */
+/* team section style start here */
+.team-main{
+  width:70%;
+  height: 662px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.team-header h3 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+}
+.team-header p{
+  width: 640px;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  margin-left: 21em;
+  margin-top: 15px;
+}
+.team-container{
+  width:71%;
+  height: 508px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: grid;
+  grid-template-columns:repeat(3,1fr) ;
+  position: relative;
+  border-radius: 20px;
+}
+ .team-card-1{
+  height: 230px;
+  width: 280px;
+  background-image: url(/images/trainer1.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+.team-card-2{
+  height: 230px;
+  width: 280px;
+  background-image: url(/images/trainer2.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+.team-card-3{
+  height: 230px;
+  width: 280px;
+  background-image: url(/images/trainer3.png);
+  background-position: center;
+  background-size: cover;
+  margin: 10px 0px ;
+  border-radius: 10px;
+}
+.team-card-4{
+  height: 230px;
+  width: 280px;
+  background-image: url(/images/trainer4.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0px 15px;
+  border-radius: 10px;
+}
+.team-card-5{
+  height: 230px;
+  width: 280px;
+  background-image: url(/images/trainer5.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0px 0px;
+  border-radius: 10px;
+}
+.team-card-6{
+  height: 220px;
+  width: 280px;
+  background-image: url(/images/trainer6.png);
+  background-position: center;
+  background-size: cover;
+  margin: 12px 0px;
+  border-radius: 10px;
+} 
+.team-card-1 p{
+  position: absolute;
+  top:  13em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+}
+.team-card-1 h3{
+  color: #fff;
+  position: absolute;
+  top:10em;
+  margin-left: 25px;
+}
+.team-card-2 p{
+  position: absolute;
+  top:  13em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+
+}
+.team-card-2 h3{
+  color: #fff;
+  position: absolute;
+  top:10em;
+  margin-left: 25px;
+}
+.team-card-3 p{
+  position: absolute;
+  top:  13em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+
+}
+.team-card-3 h3{
+  color: #fff;
+  position: absolute;
+  top:10em;
+  margin-left: 25px;
+}
+.team-card-4 p{
+  position: absolute;
+  bottom: 2em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+}
+.team-card-4 h3{
+  color: #fff;
+  position: absolute;
+  bottom:3em;
+  margin-left: 25px;
+}
+.team-card-5 p{
+  position: absolute;
+  bottom: 2em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+}
+.team-card-5 h3{
+  color: #fff;
+  position: absolute;
+  bottom:3em;
+  margin-left: 25px;
+}
+.team-card-6 p{
+  position: absolute;
+  bottom: 2em;
+  color: rgba(181, 175, 175, 0.8);
+  margin-left: 25px;
+}
+.team-card-6 h3{
+  color: #fff;
+  position: absolute;
+  bottom:3em;
+  margin-left: 25px;
+}
+
+
+
+
+
 
 
 
@@ -561,7 +728,7 @@ input, select{
   line-height: 20px;
 }
 .main-container{
-  height: 320vh;
+  height: 435vh;
 }
 .bmi-chart-container{
   /* width: 100%; */
@@ -598,6 +765,55 @@ table{
 } 
 .bmi-chart-right select>input{
   margin-right: 30px;
+}
+.team-header h3{
+  margin-bottom: 15px;
+  margin-left: 10px;
+}
+.team-header p{
+  height: 50px;
+  width: 300px;
+  margin: 0;
+  margin-right: 30px;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  
+ 
+}
+.team-container{
+  height: 1000px;
+  width: 310px;
+  display: grid;
+  grid-template-columns: repeat( 1, 1fr);
+}
+.team-box{
+  display: none;
+}
+.team-card-3{
+  margin-left: 15px;
+}
+.team-card-3 p{
+  position: relative;
+  top:11em;
+}
+.team-card-3 h3{
+  position: relative;
+  top:9em
+}
+.team-card-2{
+  margin-left: 15px;
+}
+.team-card-2 h3{
+  position: relative;
+  top:9em;
+}
+.team-card-2 p{
+  position: relative;
+  top: 11em
+}
+.team-card-6{
+  margin-left: 15px;
 }
 
 
