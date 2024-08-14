@@ -181,14 +181,10 @@ align-items: center;
 /* your habbits style start here  */
 .main-container{
   background-color: #000000;
-  height: 260vh;
+  height: 230vh;
 }
 .habbits-container{
   width: 100%;
-  /* background-color: #000000; */
-
-
-  
 }
 .habbits-header{
   height: 9vh;
@@ -238,10 +234,9 @@ align-items: center;
 }
 .run-extra-content{
   width: 80%;
- height: 340px;
- margin: auto;
+  height: 340px;
+  margin: auto;
   background: rgb(34, 34, 34);
-  /* margin: 0 auto; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -422,7 +417,7 @@ input, select{
 }
 .team-container{
   width:71%;
-  height: 508px;
+  height: 511px;
   margin: 0 auto;
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -431,14 +426,15 @@ input, select{
   position: relative;
   border-radius: 20px;
 }
- .team-card-1{
+.team-card-1{
   height: 230px;
   width: 280px;
   background-image: url(/images/trainer1.png);
   background-position: center;
   background-size: cover;
-  margin: 10px 15px;
+  margin: 15px 15px;
   border-radius: 10px;
+  
 }
 .team-card-2{
   height: 230px;
@@ -446,7 +442,7 @@ input, select{
   background-image: url(/images/trainer2.png);
   background-position: center;
   background-size: cover;
-  margin: 10px 0px;
+  margin: 15px 0px;
   border-radius: 10px;
 }
 .team-card-3{
@@ -455,7 +451,7 @@ input, select{
   background-image: url(/images/trainer3.png);
   background-position: center;
   background-size: cover;
-  margin: 10px 0px ;
+  margin: 15px 0px ;
   border-radius: 10px;
 }
 .team-card-4{
@@ -473,17 +469,19 @@ input, select{
   background-image: url(/images/trainer5.png);
   background-position: center;
   background-size: cover;
-  margin: 0px 0px;
+  margin: 3px 0px;
+  margin-bottom: 14px;
   border-radius: 10px;
 }
 .team-card-6{
-  height: 220px;
+  height: 230px;
   width: 280px;
   background-image: url(/images/trainer6.png);
   background-position: center;
   background-size: cover;
-  margin: 12px 0px;
+  margin: 0px 2px;
   border-radius: 10px;
+  
 } 
 .team-card-1 p{
   position: absolute;
@@ -559,6 +557,90 @@ input, select{
   bottom:3em;
   margin-left: 25px;
 }
+/* team section style ends here */
+/* footer section style start here here */
+.footer-main{
+  width: 100%;
+  height: 40vh;
+  background-color: rgba(1, 1, 1, 0.889);
+}
+.footer-content{
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+  display: flex;
+
+}
+.footer-left-content{
+  color: white;
+  width:40%;
+  height: 300px;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.footer-left-content h3{
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(230, 83, 60);
+  margin-left: 70px;
+}
+.footer-left-content p{
+  width: 395px;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+  margin-left: 70px;
+}
+.footer-right-content{
+  width:45%;
+  height:310px;
+  display: flex;
+  flex-direction: row;
+  gap: 9em;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+.child-1{
+  width:160px;
+  margin-left: 25px;
+}
+.child-1 h4{
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.child-1 ul li{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+}
+.child-2{
+  width: 160px;
+}
+.child-2 h4{
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+ .child-2 ul li{
+  list-style: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 18px;
+}
+.footer-main hr{
+  width:900px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 50px;
+}
+.footer-main footer{
+ text-align: center;
+ color: rgba(255, 255, 255, 0.5);
+ margin-top: 3.5em;
+}
+/* footer section style ends here */
 
 
 
@@ -728,7 +810,7 @@ input, select{
   line-height: 20px;
 }
 .main-container{
-  height: 435vh;
+  height: 439vh;
 }
 .bmi-chart-container{
   /* width: 100%; */
@@ -782,7 +864,7 @@ table{
  
 }
 .team-container{
-  height: 1000px;
+  height: 1035px;
   width: 310px;
   display: grid;
   grid-template-columns: repeat( 1, 1fr);
@@ -802,6 +884,7 @@ table{
   top:9em
 }
 .team-card-2{
+  height: 220px;
   margin-left: 15px;
 }
 .team-card-2 h3{
