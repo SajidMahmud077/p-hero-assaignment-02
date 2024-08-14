@@ -20,7 +20,6 @@
   color: white;
 
 }
-
 /* navbar */
 .nav-bar{
   width: 90%;
@@ -429,7 +428,7 @@ input, select{
 .team-card-1{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer1.png);
+  background-image: url(./images/trainer1.png);
   background-position: center;
   background-size: cover;
   margin: 15px 15px;
@@ -439,7 +438,7 @@ input, select{
 .team-card-2{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer2.png);
+  background-image: url(./images/trainer2.png);
   background-position: center;
   background-size: cover;
   margin: 15px 0px;
@@ -448,7 +447,7 @@ input, select{
 .team-card-3{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer3.png);
+  background-image: url(./images/trainer3.png);
   background-position: center;
   background-size: cover;
   margin: 15px 0px ;
@@ -457,7 +456,7 @@ input, select{
 .team-card-4{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer4.png);
+  background-image: url(./images/trainer4.png);
   background-position: center;
   background-size: cover;
   margin: 0px 15px;
@@ -466,7 +465,7 @@ input, select{
 .team-card-5{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer5.png);
+  background-image: url(./images/trainer5.png);
   background-position: center;
   background-size: cover;
   margin: 3px 0px;
@@ -476,7 +475,7 @@ input, select{
 .team-card-6{
   height: 230px;
   width: 280px;
-  background-image: url(/images/trainer6.png);
+  background-image: url(./images/trainer6.png);
   background-position: center;
   background-size: cover;
   margin: 0px 2px;
@@ -797,8 +796,7 @@ input, select{
   width: 90%;
 }
 .bmi-content{
-
-  margin-left: 20px;
+  margin-left: 42px;
 }
 .bmi-content h3{
   width: 180px;
@@ -810,7 +808,9 @@ input, select{
   line-height: 20px;
 }
 .main-container{
-  height: 439vh;
+  height: 442vh;
+  width: 410px;
+
 }
 .bmi-chart-container{
   /* width: 100%; */
@@ -873,6 +873,7 @@ table{
   display: none;
 }
 .team-card-3{
+  height: 240px;
   margin-left: 15px;
 }
 .team-card-3 p{
@@ -885,6 +886,7 @@ table{
 }
 .team-card-2{
   height: 220px;
+  margin-top: 0;
   margin-left: 15px;
 }
 .team-card-2 h3{
@@ -896,7 +898,64 @@ table{
   top: 11em
 }
 .team-card-6{
+  margin-top: 0px;
   margin-left: 15px;
+}
+.footer-main{
+  height: 90vh;
+  width: 410px;
+}
+.footer-left-content{
+  height: 250px;
+  width: 40%;
+  margin-left: 10px;
+ 
+ 
+}
+.footer-left-content h3{
+  font-size: 2.5rem;
+}
+.footer-left-content p{
+  width: 220px;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.footer-content{
+  height: 90vh;
+  width:400px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-right-content{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 14em;
+  position: absolute;
+}
+.child-1{
+  position: relative;
+  left:50px;
+  height: 200px;
+}
+.child-2{
+  position: relative;
+  left: 70px;
+  bottom: 95px;
+
+}
+.footer-line{
+  display: none;
+ 
+}
+.footer{
+  height: 20px;
+  width: 280px;
+  position: relative;
+  bottom: 8em;
+  left: 55px;
+  
 }
 
 
