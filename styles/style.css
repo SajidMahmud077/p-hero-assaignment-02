@@ -428,7 +428,7 @@ input, select{
 .team-card-1{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer1.png);
+  background-image: url(../images/trainer1.png);
   background-position: center;
   background-size: cover;
   margin: 15px 15px;
@@ -438,7 +438,7 @@ input, select{
 .team-card-2{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer2.png);
+  background-image: url(../images/trainer2.png);
   background-position: center;
   background-size: cover;
   margin: 15px 0px;
@@ -447,7 +447,7 @@ input, select{
 .team-card-3{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer3.png);
+  background-image: url(../images/trainer3.png);
   background-position: center;
   background-size: cover;
   margin: 15px 0px ;
@@ -456,7 +456,7 @@ input, select{
 .team-card-4{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer4.png);
+  background-image: url(../images/trainer4.png);
   background-position: center;
   background-size: cover;
   margin: 0px 15px;
@@ -465,7 +465,7 @@ input, select{
 .team-card-5{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer5.png);
+  background-image: url(../images/trainer5.png);
   background-position: center;
   background-size: cover;
   margin: 3px 0px;
@@ -475,7 +475,8 @@ input, select{
 .team-card-6{
   height: 230px;
   width: 280px;
-  background-image: url(./images/trainer6.png);
+  /* background-image: url(./images/trainer6.png); */
+  background-image: url(../images/trainer6.png);
   background-position: center;
   background-size: cover;
   margin: 0px 2px;
